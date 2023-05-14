@@ -1,0 +1,13 @@
+1.	W Javie, C++, Python lub C# i innych językach programowania istnieją biblioteki Crypth (kryptograficzne).
+ Z wykorzystaniem tej biblioteki przygotuj program z terminem do 18 czerwca 2023, który zrealizuje następujące
+  funkcjonalności (dobierz algorytmy i poziom zabezpieczeń wg aktualnego stanu wiedzy np. AES 256):
+I.	Pozwoli na wzajemną wymianę danych zaszyfrowanych. Dane mogą być szyfrowane do np. pliku i przesyłane mailem (NA 3)
+II.	Musi istnieć mechanizm sprawdzenia czy wiadomość nie została zmieniona (NA 3.5)
+III.	Musi istnieć jakiś mechanizm ustanowienia klucza dla szyfrowania, algorytm (NA 4.0)
+IV.	Musi istnieć mechanizm uwierzytelnienia podmiotu odbiorcy i nadawcy, najlepiej z algorytmem asynchronicznym RSA (NA 5.0)
+
+PROGRAM POTRZEBUJE DANYCH: KLUCZA, FRAGMENTÓW PRZESYŁANYCH KOMUNIKATÓW, SKRÓTÓW, MOŻESZ POBIERAĆ DANE PRZEZ OKNA TEKSTOWE,
+ ALE MOŻESZ ZROBIĆ KOMUNIKACJĘ SIECIOWĄ NA GNIAZDACH ITP. Czyli czat do przesyłania wiadomości.,
+  WTEDY ZWALNIAM Z EGZAMINU. (najlepiej UDP)
+
+Proponowane algorytmy do wykorzystania: AES, SHA-256/SHA-512, RSA oraz Diffie-Hellman/El Gamal
